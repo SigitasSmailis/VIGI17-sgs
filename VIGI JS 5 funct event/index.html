@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./script.js" defer></script> -->
+</head>
+
+<body>
+    <h1></h1>
+    <button>labas</button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nam
+        necessitatibus nulla nihil magnam vero consequuntur, magni
+        repellendus aliquam tempora.</p>
+    <script>
+        document.querySelector('p').addEventListener('copy', nunu)
+        function nunu() {
+            alert('labukas nekopijuok')
+        }
+        document.querySelector('button').addEventListener('click', sayHello)
+        function sayHello() {
+            document.querySelector('h1').textContent = 'labukas'
+        }
+    </script>
+
+</body>
+
+</html>
