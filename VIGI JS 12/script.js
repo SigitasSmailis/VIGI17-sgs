@@ -1,3 +1,16 @@
+//    ------  Petro dalis
+'bmw'.toLocaleUpperCase === 'BMV'
+
+const nam = 'gozep'
+console.log(nam.charAt(2))
+console.log(nam.toLocaleUpperCase())
+console.log('hose'.toLocaleUpperCase())
+
+console.log(nam.toUpperCase().charAt(3))
+
+
+
+
 //   ----   bolean   -----  
 
 const name = 'CodeAcademy'

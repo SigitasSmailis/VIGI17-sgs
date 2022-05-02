@@ -1,3 +1,30 @@
+// ?----    PETRO PASKAITA    ----------------
+
+let mylesiu = new Promise((resolve, reject) => {
+  setTimeout(() =>resolve(), 1500);
+
+})
+let fetch = new Promise((resolve, reject) => {
+    console.log('iek i url');
+    console.log('siusk ta json')
+    if(file.ok){
+        resolve(file)
+    }
+    else{
+        reject(err)
+    }
+})
+
+mylesiu
+    .then(() =>console.log('together'))
+    .catch(() => console.log('radau kita'))
+
+fetch('https://randomuser.me/api/')
+.then((file) => file.json())
+
+.then(function(file) { return file.json()})
+.then(function(pasiimuFileIsVirs))
+console.log(pasiimuFileIsVirs)
 
 setTimeout(() => {
     console.log('8')

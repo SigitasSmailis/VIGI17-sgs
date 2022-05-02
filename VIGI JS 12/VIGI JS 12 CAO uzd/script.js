@@ -6,12 +6,12 @@ let isLegalAge = true;
 
 // -------  1 uzduotis Number     --- -------
 
-// let milkPrice = 2.0;
-// if (Number.isInteger(milkPrice)){
-// alert('nereikes centu') }
-//     else {
-//         alert('reikes centu')
-// }
+let milkPrice = 3.20;
+if (Number.isInteger(milkPrice)){
+alert('nereikes centu') }
+    else {
+        alert('reikes centu')
+}
 
 // -------  2 uzduotis Number     --- -----
 

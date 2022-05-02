@@ -1,4 +1,8 @@
 //    ----   20 PASK JS promise   1 uzduotis -- - 
+const galvoju = new Promise((resolve, reject) =>{resolve(),2500} )
+manau.then(() => console.log('veikia') )
+
+
 // const manau =  new Promise ((resolve, reject) => {resolve(),2000})
 
 // manau.then(() => alert('veikia'))
